@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREATE VIEW</title>
+
+    <script src="algo.js"></script>
+</head>
+
+<body>
+    <a href="savedViews.html">Saved Views</a>
+
+    <h2>Data Input Form For Creating a View</h2>
+
+    <form>
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+        </select>
+        <br>
+
+        <label for="indicator">Indicator:</label>
+        <select id="indicator" name="indicator">
+        </select>
+        <br>
+
+
+        <label for="startYear">Start Year:</label>
+        <input type="number" id="startYear" name="startYear" required>
+        <br>
+
+        <label for="endYear">End Year:</label>
+        <input type="number" id="endYear" name="endYear" required>
+        <br>
+
+        <input type="submit" value="Create a View" id="btnCreateView">
+    </form>
+    <div>
+        <canvas id="myChart"></canvas>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+
+</body>
+
+</html>
