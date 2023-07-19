@@ -40,6 +40,4 @@ public class ViewController {
         viewService.deleteView(viewId);
         return new ResponseEntity<>(HttpStatus.OK);
     }
-
-    // Implement the updateView() method if needed
 }
